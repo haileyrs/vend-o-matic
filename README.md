@@ -3,7 +3,7 @@
 ### Set Up
 This application utilizes Flask to create the web server. You will need to have pip installed to download and use Flask. The following setup will install pip in a virtual environment, but if you choose to run it a different way, please see the [pip documentation site](https://pip.pypa.io/en/stable/installation/) for installation instructions. 
 
-- Open folder and navigate to main directory (`/vend-o-matic`)
+- Open folder and navigate to main directory where the respository was downloaded (`/vend-o-matic` if you follow the naming convention of the respository)
 
 - Add the virtual environment by running the following in your terminal 
     - (Mac) `python3 -m venv .venv`
@@ -17,6 +17,8 @@ This application utilizes Flask to create the web server. You will need to have 
 
 - Install the necessary dependencies
     - `pip install -r requirements.txt`
+
+- Finally, run `flask run`
 
 The server should run on http://127.0.0.1:5000
 
